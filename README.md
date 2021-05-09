@@ -12,7 +12,7 @@ https://github.com/iwuss/igo-mall
 
 <img style="box-shadow:unset;" src="/medias/article/mall/1.png">
 
-#### Node后端
+#### Node后端(server)
 
 采用Protobuf进行数据交换，并且定义的实体结构可以给前端使用，无需在前端重复定义。
 
@@ -27,7 +27,7 @@ https://github.com/iwuss/igo-mall
 2、功能（待定）
 - [x] 用户登录
 
-#### web商城
+#### web商城(mall)
 
 开发单页面应用，为了更好的SEO，利用Nuxt同构框架进行SSR
 
@@ -41,7 +41,7 @@ https://github.com/iwuss/igo-mall
 2、功能（待定）
 - [ ] 用户登录
 
-#### 小程序
+#### 小程序(miniprogram)
 
 1、主要技术栈
 - Taro
@@ -54,7 +54,7 @@ https://github.com/iwuss/igo-mall
 
 #### CMS
 
-商城的内容管理后台
+商城的内容管理后台(cms)
 
 1、主要技术栈
 - Element+
@@ -63,3 +63,7 @@ https://github.com/iwuss/igo-mall
 
 2、功能（待定）
 - [ ] 用户登录
+- [ ] 小程序商城内容管理
+- - [ ] 首页菜单设置
+- [ ] Web商城内容管理
+- - [ ] 导航栏设置
