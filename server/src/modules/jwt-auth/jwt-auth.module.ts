@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { JWT } from '../config';
+import { JWT } from '../../config';
 import { JwtAuthStrategy } from './jwt.auth.strategy';
 import { JwtAuthService } from './jwt-auth.service';
 import { JwtAuthController } from './jwt-auth.controller';
