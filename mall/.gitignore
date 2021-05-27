@@ -79,6 +79,13 @@ dist
 
 # IDE / Editor
 .idea
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # Service worker
 sw.*
@@ -88,3 +95,18 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Tests
+/coverage
+/.nyc_output
+
+deploy_versions/
+.temp/
+.rn_temp/
